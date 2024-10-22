@@ -1,0 +1,68 @@
+:root {
+    --background-color: #333940;
+    --text-color: #E867ED;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--text-color)
+}
+
+body {
+    background-color: var(--background-color)
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header p {
+    width: 40%;
+    color: whitesmoke;
+    /* how to make text centered? */
+}
+
+h2 {
+    border: solid whitesmoke 1px;
+    border-radius: 5px;
+    width: 25vh;
+    padding: .5rem;
+}
+
+.row1 section {
+     
+}
+
+section > div {
+    border: solid white 2px;
+    height: 20vh;
+    width: 30vh;
+}
+
+.codeBox {
+    background-color: green;
+    min-height: 100%;
+}
+
+.codeBox p {
+    margin: 0;
+    padding: 5px;
+}
+
+#row2 section > div {
+    height: 35vh
+}
+
+#row1, #row2 {
+    border: solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#row1 {
+    margin-bottom: 3rem;
+}
